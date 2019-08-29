@@ -1,17 +1,26 @@
 {
   "name": "challenge-express-debugging",
   "version": "1.0.0",
-  "description": "",
+  "description": "My project is broken and I can't figure out why! Can you help me figure out why my project won't build? I thought I wrote the code correctly. And Google is no help!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Keith",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "express-handlebars": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcbangi/challenge-express-debugging.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kcbangi/challenge-express-debugging/issues"
+  },
+  "homepage": "https://github.com/kcbangi/challenge-express-debugging#readme"
 }

@@ -1,6 +1,6 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
-const get = require('./get');
+const get = require("../contact/get/index");
 
-router.get('/contact', get);
+router.get("/contact", get);
